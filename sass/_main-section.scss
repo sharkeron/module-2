@@ -1,0 +1,327 @@
+$montserrat-regular: 'Montserrat-Regular';
+$raleway-extrabold: 'Raleway-ExtraBold';
+$raleway-regular: 'Raleway-Regular';
+
+main{
+
+	.wcci{
+		display: flex;
+
+		width: 100%;
+
+		.left{
+			width: 50%;
+
+			.title{
+
+				h1{
+					margin: 0;
+					margin-top: 205px;
+					margin-bottom: 78px;
+					padding-left: 26px;
+
+					color: #BCC0CD;
+
+					font-family: $raleway-extrabold;
+					font-size: 72px;
+				}
+			}
+			.text{
+
+				p{
+					padding-left: 26px;
+
+					color: #BCC0CD;
+
+					font-family: $montserrat-regular;
+					font-size: 14px;
+					line-height: 48px;
+
+				}
+			}
+		}
+
+		.right{
+				width: 50%;
+
+			.bg{
+				position: relative;
+
+				float: right;
+
+				margin-top: 66px;
+				margin-bottom: 133px;
+
+				.border{
+					position: absolute;
+					bottom: 0;
+
+					width: 100%;
+					height: 404px;
+
+					border-top: 21px solid #97D1EB;
+					border-bottom: 21px solid #97D1EB;
+					border-left: 21px solid #97D1EB;
+				}
+
+				.bg-title{
+					position: absolute;
+					top: 80px;
+					left: -38px;
+
+					color: #000;
+
+					font-family: $raleway-extrabold;
+					font-size: 105px;
+					line-height: 125px;
+
+					.small{
+						font-size: 92px;
+					}
+				}
+			}
+		}
+
+	}
+
+	.four-blocks{
+		.blocks{
+			display: flex;
+
+			.block{
+				position: relative;
+
+				width: 25%;
+				padding-top: 323px;
+				padding-bottom: 339px;
+
+				text-align: center;
+
+				color: #fff;
+
+				font-family: $raleway-extrabold;
+				font-size: 60px;
+				line-height: 125px;
+
+
+				.border{
+					position: absolute;
+					top: 20px;
+					left: 20px;
+
+					display: none;
+
+	   			width: 88%;
+					height: 94.5%;
+
+					border: 18px solid #97D1EB;
+
+					a{
+						display: block;
+
+						width: 100%;
+						height: 100%;
+						padding-top: 285px;
+
+						text-decoration: none;
+
+						color: inherit;
+					}
+				}
+
+				&:hover{
+					.border{
+						display: block;
+					}
+				}
+
+			}
+
+			.block-1{
+				background: url(../img/Photo-1.png) no-repeat;
+				background-size: cover;
+
+			}
+
+			.block-2{
+				background: url(../img/Photo-2.png) no-repeat;
+				background-size: cover;
+
+			}
+
+			.block-3{
+				background: url(../img/Photo-3.png) no-repeat;
+				background-size: cover;
+
+			}
+
+			.block-4{
+				background: url(../img/Photo-4.png) no-repeat;
+				background-size: cover;
+
+			}
+
+
+		}
+	}
+
+	.how-we-work{
+		background: url(../img/bg-circle.png);
+		background-size: auto;
+
+		.hww{
+			position: relative;
+
+			text-align: center;
+
+			color: #97D1EB;
+
+			font-family: $raleway-extrabold;
+			font-size: 16px;
+			line-height: 125px;
+
+			&::before{
+				position: absolute;
+				top: 60px;
+				left: 410px;
+
+				width: 190px;
+				height: 1px;
+
+				content: '';
+
+				border-top: 1px solid #97D1EB;
+			}
+			&::after{
+				position: absolute;
+				top: 60px;
+				right: 410px;
+
+				width: 190px;
+				height: 1px;
+
+				content: '';
+
+				border-top: 1px solid #97D1EB;
+			}
+		}
+
+		.blocks{
+			display: flex;
+
+			width: 75%;
+			margin: 0 auto;
+
+			color: #000;
+
+			font-size: 60px;
+			line-height: 125px;
+
+			.block{
+				width: 33.3%;
+				padding-top: 100px;
+				padding-bottom: 100px;
+
+				text-align: center;
+
+				font-family: $raleway-extrabold;
+
+			}
+
+			.block-1{
+				background: url(../img/1.png) no-repeat;
+				background-position: center;
+			}
+			.block-2{
+				background: url(../img/2.png) no-repeat;
+				background-position: center;
+			}
+			.block-3{
+				background: url(../img/3.png) no-repeat;
+				background-position: center;
+			}
+		}
+	}
+
+	.latest-project{
+		.hww{
+			position: relative;
+
+			text-align: center;
+
+			color: #97D1EB;
+
+			font-family: $raleway-extrabold;
+			font-size: 16px;
+			line-height: 125px;
+
+			&::before{
+				position: absolute;
+				top: 60px;
+				left: 410px;
+
+				width: 190px;
+				height: 1px;
+
+				content: '';
+
+				border-top: 1px solid #97D1EB;
+			}
+			&::after{
+				position: absolute;
+				top: 60px;
+				right: 410px;
+
+				width: 190px;
+				height: 1px;
+
+				content: '';
+
+				border-top: 1px solid #97D1EB;
+			}
+		}
+
+		.left{
+			width: 50%;
+			.slide{
+				img{
+					width: 100%;
+					height: 400px;
+				}
+			}
+
+		}
+
+		.right{
+			position: relative;
+
+			.btns{
+				position: absolute;
+				left: 0;
+
+				width: 105px;
+				height: 210px;
+
+				.btn-prev, .btn-next{
+					width: 105px;
+					height: 105px;
+					padding-top: 40px;
+
+					text-align: center;
+
+					color: #fff;
+
+					font-style: 25px;
+				}
+
+				.btn-prev{
+					background: #80BFDB;
+				}
+
+				.btn-next{
+					background: #97D1EB;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/montserrat-regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-regular/Montserrat-Regular.otf') format('opentype'), url('../fonts/montserrat-regular/Montserrat-Regular.woff') format('woff'), url('../fonts/montserrat-regular/Montserrat-Regular.ttf') format('truetype'), url('../fonts/montserrat-regular/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Raleway-ExtraBold';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/Raleway-ExtraBold/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/Raleway-ExtraBold/raleway-extrabold-webfont.woff') format('woff'),
+	url('../fonts/Raleway-ExtraBold/raleway-extrabold-webfont.woff2') format('woff2'), url('../fonts/Raleway-ExtraBold/raleway-extrabold-webfont.ttf') format('truetype'), url('../fonts/Raleway-ExtraBold/raleway-extrabold-webfont.svg#Montserrat-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/Raleway-Regular/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/Raleway-Regular/raleway-regular-webfont.woff') format('woff'),
+	url('../fonts/Raleway-Regular/raleway-regular-webfont.woff2') format('woff2'), url('../fonts/Raleway-Regular/raleway-regular-webfont.ttf') format('truetype'), url('../fonts/Raleway-Regular/raleway-regular-webfont.svg#Montserrat-Regular') format('svg');
+}
