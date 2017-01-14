@@ -30,8 +30,6 @@ $(function () {
 		arrows: true,
 		prevArrow: $('.latest-project .btn-prev'),
 		nextArrow: $('.latest-project .btn-next'),
-		appendDots: $('.paginators'),
-		dots: true
 	});
 
 
